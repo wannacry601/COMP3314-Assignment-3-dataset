@@ -103,7 +103,6 @@ print(accuracy_score(y_test, y_test_pred))
 ```
 
 - result:
-
 ![](screenshot1.png)
 
 *The test is run on the HKU GPU Farm Phase 1. Flags: `-p q3090 -gres=gpu:rtx3090:2 --cpus-per-task=8`.*
@@ -127,7 +126,6 @@ print(accuracy_score(y_test, y_test_pred))
 ```
 
 - result:
-
 ![alt text](screenshot2.png)
 
 *The test is run on the HKU GPU Farm Phase 1. Flags: `-p q3090 -gres=gpu:rtx3090:2 --cpus-per-task=8`.*
